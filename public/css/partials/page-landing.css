@@ -143,6 +143,57 @@ label:active:after {
     }
 }
 
+@media (min-width: 700px) {
+    #page-landing #container {
+        max-width: 1024px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-rows: 300px 1fr;
+        grid-template-areas:
+        "proffy image image"
+        "button button texting";
+        column-gap: 87px;
+        row-gap: 86px;
+    }
+    .logo-container {
+        grid-area: proffy;
+        text-align: initial;
+        align-self: center;/*alinhamento do conteudo dentro da grid, sem ultrapassar o espaço da grid*/
+        margin: 0;
+    }
+
+    .logo-container img {
+        height: 107px;
+    }
+
+    .hero-image{
+        grid-area: image;
+        height: 300px;     
+    }
+
+    .toggle {
+        grid-area: image;
+        margin: 0; 
+    }
+
+    .buttons-container{
+        grid-area: button;
+        justify-content: flex-start;/*sobreescreve justify-content: center do .buttons-container / flex por que declaramos flex  */
+        margin: 0;   
+    }
+
+    .total-connections{
+        grid-area: texting;
+        justify-self: end;
+        font-size: 1.2rem;
+    }
+
+    .toggle {
+        grid: proffy;
+    
+    }
+}
+
 /*Definição de grid para tela maior que 1100px*/
 @media (min-width: 1100px) {
     #page-landing #container {/*Trabalhando com px por ser pag web maior do que 1000px*/
@@ -169,8 +220,7 @@ label:active:after {
 
     .hero-image{
         grid-area: image;
-        height: 350px;
-        
+        height: 350px;    
     }
 
     .buttons-container{
@@ -184,5 +234,4 @@ label:active:after {
         justify-self: end;
         font-size: 1.2rem;
     }
-
 }
