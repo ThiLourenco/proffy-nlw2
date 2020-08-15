@@ -6,7 +6,8 @@ const {
     pageLanding,
     pageStudy,
     pageGiveClasses,
-    saveClasses
+    saveClasses,
+    success
 } = require('./pages')
 
 //configurar nunjucks (template engine)
@@ -25,7 +26,8 @@ server
 // rotas da aplicação
 .get("/", pageLanding) 
 .get("/study", pageStudy)
-.get("/give-classes", pageGiveClasses) 
+.get("/give-classes", pageGiveClasses)
+.get("/success", pageSuccess) 
 .post("/save-classes", saveClasses)//aplicando o method post do formulário
 
 //stat do servidor
