@@ -5,7 +5,7 @@ const { subjects, weekdays, getSubject, convertHoursToMinutes } = require('./uti
 function pageLanding(req, res) {
     return res.render("index.html")
 }
-
+//HTml page study
 async function pageStudy(req, res) {
     const filters = req.query //recebendo os dados para filtrar
     

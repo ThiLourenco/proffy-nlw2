@@ -30,5 +30,5 @@ server
 .get("/success", pageSuccess) 
 .post("/save-classes", saveClasses)//aplicando o method post do formulário
 
-//stat do servidor
+//status do servidor
 .listen(5500)
