@@ -14,7 +14,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
         rel="stylesheet">
-    <script src='scripts/addField.js' defer></script>
 </head>
 
 <body id="page-give-classes">
@@ -88,7 +87,7 @@
                     <legend>Horários disponiveis
                         <button type="button" id="add-time">+ Novo Horário</button>
                     </legend>
-
+                    
                     <div class="schedule-item">
 
                         <div class="select-block">
@@ -113,6 +112,9 @@
                             <label for="to">Até</label>
                             <input type="time" name="time_to[]" required> <!-- seleciona mais de um valor []-->
                         </div>
+                        <div class="delete-time">
+                            <img src="images/icons/trash.svg" alt="Lixeira, Excluir" width="20px" height="20px">
+                        </div>
                     </div>
 
                 </fieldset>
@@ -130,6 +132,8 @@
         </main>
 
     </div>
+    <script src="scripts/addField.js" defer></script>
+    <script src="scripts/deleteField.js" defer></script>  
 </body>
 
 </html>

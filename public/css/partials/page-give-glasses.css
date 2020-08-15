@@ -106,7 +106,7 @@
     margin-top: 3.2rem;
 }
 
-/*formatacao ao adicionar novo horário*/
+/*formatacao ao adicionar novo horário / remover*/
 /* leia-se todos schedule anterior a outro schedule*/
 
 .schedule-item+.schedule-item {
@@ -115,6 +115,17 @@
 
     border-top: 1px solid var(--color-line-in-white);
 }
+
+.schedule-item .delete-time {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.schedule-item .delete-time:hover {
+
+}
+
 
 #page-give-classes main footer button:hover {
     background: var(--color-secondary-dark);

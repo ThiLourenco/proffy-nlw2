@@ -1,7 +1,7 @@
 //delete field
 
 const schedule = document.querySelector("#schedule-items");
-const deleteField = document.querySelector(".schedule-item .delete");
+const deleteField = document.querySelector(".schedule-item .delete-time");
 const fieldItem = document.querySelector(".schedule-item");
 
     deleteField.addEventListener("click", () => {
