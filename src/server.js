@@ -21,7 +21,7 @@ nunjucks.configure('src/views', {
 server
 //receber os dados do req. body mas não deixar visivel
 .use(express.urlencoded({extended: true}))
-//configurar arquivos estáticos (css, scrips, imagens)
+//configura arquivos estáticos (css, scrips, imagens)
 .use(express.static("public"))
 // rotas da aplicação
 .get("/", pageLanding) 
