@@ -7,7 +7,7 @@ const {
     pageStudy,
     pageGiveClasses,
     saveClasses,
-    success
+    pageSuccess
 } = require('./pages')
 
 //configurar nunjucks (template engine)
