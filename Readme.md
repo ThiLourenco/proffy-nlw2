@@ -6,11 +6,12 @@ Proffy é uma aplicação para estudos online desenvolvida na <strong>NLW</stron
 ## #Tecnologias Utilizadas
 - Front-end <br/>
 HTML/CSS <br/>
-Nunjucks <br/>
 Javascript <br/>
+Nunjucks <br/>
 
 - Back-end <br/>
 Node.js <br/>
+Express <br/>
 Sqlite <br/>
 
 ## #Novas Funções
