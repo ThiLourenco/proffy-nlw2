@@ -34,7 +34,6 @@ function convertHoursToMinutes(time) {
     const [hour, minutes] = time.split(":")
     return Number((hour * 60) + minutes)
 }
-
 //exportando para server.js
 module.exports = {
     subjects,
