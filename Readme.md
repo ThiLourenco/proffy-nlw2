@@ -13,6 +13,3 @@ Nunjucks <br/>
 Node.js <br/>
 Express <br/>
 Sqlite <br/>
-
-## #Novas Funções
-Em construção...
