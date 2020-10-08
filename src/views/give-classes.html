@@ -93,7 +93,7 @@
                         <div class="select-block">
                             <label for="weekday">Dia da semana</label>
                             <select name="weekday[]" required>
-                                <!--[] é para acresentar mais de uma valor no js no caso weekdays pode ter mais de um valor-->
+                                
                                 <option value="">Selecione uma opção</option>
                                 {%for weekday in weekdays %}
                                     <option value="{{loop.index0}}"> 
@@ -105,12 +105,12 @@
                         </div>
                         <div class="input-block">
                             <label for="time_from">Das</label>
-                            <input type="time" name="time_from[]" required> <!-- seleciona mais de um valor []-->
+                            <input type="time" name="time_from[]" required>
                         </div>
 
                         <div class="input-block">
                             <label for="to">Até</label>
-                            <input type="time" name="time_to[]" required> <!-- seleciona mais de um valor []-->
+                            <input type="time" name="time_to[]" required>
                         </div>
                             <img class="delete-time" src="images/icons/trash.svg" alt="Remover" width="15px" height="20px">        
                     </div>
