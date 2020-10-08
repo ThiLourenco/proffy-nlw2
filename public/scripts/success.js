@@ -1,6 +1,6 @@
 //redirect page sucess to study
 
-let timer = 2000;
+let timer = 3000;
 
  setTimeout(() => {
 
